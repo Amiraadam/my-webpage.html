@@ -1,0 +1,134 @@
+/* Resetting default margin and padding */
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(background\ color.jpg);
+}
+
+/* Styling header */
+#intro .content {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#intro .text {
+    flex: 1;
+}
+
+#intro .image img {
+    max-width: 100%;
+}
+
+#city .content {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#city .image {
+    flex-shrink: 5;
+    margin-right: 60px; /* Adjust as needed */
+    
+}
+
+#city .text {
+    flex: 1;
+}
+
+
+
+
+/* Styling table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+th {
+    background-color: lightgreen;
+}
+
+.lang {
+    font-size: 1.5em;
+}
+
+
+#subjects .subjects-container {
+   
+     
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 5px;
+}
+
+#subjects .subject {
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+}
+
+#subjects .content {
+    display: flex;
+    align-items: center;
+}
+
+#subjects .text {
+    flex: 2;
+    margin-left: -10px;
+}
+
+#subjects .image img {
+   
+    max-width: auto; 
+    width: 200px; 
+    height: 300px;
+    margin-left: -10px;
+    
+}
+
+
+
+#historic .places-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 5px; /* Adjust as needed */
+}
+
+#historic .place {
+    border: 1px solid #ddd; /* Optional: Add borders for visual separation */
+    padding: 10px;
+}
+
+#historic .content {
+    display: flex;
+}
+
+#historic .text {
+    flex: 2;
+    margin-left: -30px; /* Adjust as needed */
+}
+
+#historic .image {
+    
+    max-width: 100%; 
+    
+}
+
+#historic .image img {
+    max-width: auto; 
+    width: 200px; 
+    height: 300px;
+    margin-left: -20px;
+}
